@@ -1,0 +1,104 @@
+body{
+    background: #fff;
+    margin: 0 auto;
+}
+.box{
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.box__content{
+    width: 404px;
+    height: 464px;
+    border: 2px solid #ECECEC;
+    border-radius: 16px;
+}
+.container{
+    padding: 52px 44px ;
+}
+.label{
+    padding-bottom: 5px;
+    color: #98989E;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+.label__community{
+    padding-bottom: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+.form-group{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.register-menu__title{
+    padding-bottom: 8px;
+}
+.form-group__title{
+    margin: 0;
+    
+}
+.padding{
+    padding-top: 24px;
+}
+.register-menu{
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 24px;
+    width: 324px;
+    height: 40px;
+    outline: none;
+}
+.password{
+    background: url(../img/Vector.svg) no-repeat center left 10px;
+    padding-left: 10%;
+}
+.login{
+    background: url(../img/Lock.svg) no-repeat center left 10px;
+    padding-left: 10%;
+}
+.btn__sign-up{
+    padding-top: 40px;
+}
+.btn{
+    width: 324px;
+    height: 48px;
+    background: #3183FF;
+    border-radius: 24px;
+    border: 1px solid #3183FF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+.footer{
+    padding-top: 16px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+}
+.label__footer{
+    text-decoration: none;
+    color: #98989E;
+    padding-left: 8px;
+}
+.label__footer-a{
+    text-decoration: none;
+    color: #212429
+}

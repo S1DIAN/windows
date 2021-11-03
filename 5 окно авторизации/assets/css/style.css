@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #032D23;
+    background: url(../img/white.png) center / cover no-repeat;
+    height: 100vh;
+    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.bg {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 100vh;
+    width: 50%;
+    z-index: 1;
+}
+
+.header {
+    display: flex;
+    margin-left: 50px;
+    padding-top:  40px;
+    height: 100%;
+} 
+
+.Trash {
+    margin-left: 305px;
+}
+
+.btn__firts {
+    background-color: #4EB49C;
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.content {
+    margin-top: 111px;
+    margin-left: 127px;
+}
+
+.login {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.ofe {
+    color: #AAA713;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-style: normal;
+}
+
+.of {
+    color: #AAA713;
+}
+
+.form__control {
+    background: transparent;
+    outline: none;
+    border-radius: 6px;
+    width: 385px;
+    height: 60px;
+    border: 2px solid #032D23;
+}
+
+.email {
+    padding-left: 20px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px
+}
+
+.pass  {
+    margin-top: 20px;
+    background: url(../img/Reveal.svg) no-repeat center right 15px;
+    padding-left: 20px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+
+.wbo {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.check {
+    margin-top: 15px;
+    display: flex;
+}
+
+.rm {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.fp {
+    color: #032D23;
+    margin-left: 84px;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.btn {
+    margin-top: 21px;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    width: 385px;
+    height: 64px;
+    border-radius: 6px;
+    background-color: #032D23;
+    border: none;
+    color: #fff;
+    outline: none;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.down {
+    margin-top: 30px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.gs {
+    margin-left: 5px;
+    color: #AAA713;
+}
+
+.footer {
+    bottom: 25px;
+    position: absolute;
+}
+
+.footer__first {
+    margin-left: 50px;
+    display: flex;
+    list-style: none;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.tc {
+    margin-left: 80px;
+}
+
+.sb {
+    position: absolute;
+    right: -1100px;
+    bottom: 66px;
+    z-index: 2;
+    color: #fff;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.np {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.swich {
+   margin-left: 250px;
+}
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.custom-checkbox:checked+label::before {
+    border-color: #AAA713;
+    background-color: #AAA713;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}

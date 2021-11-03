@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 232px;
+    margin-right: 330px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form__group {
+    display: block;
+    margin-top: 41px;
+}
+
+.d-block {
+    display: flex;
+    margin-bottom: 11px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4A5568;
+}
+
+.form__control {
+    background: transparent;
+    padding-left: 15px;
+    outline: none;
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    border: 1px solid #E8E8E8;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.rem {
+    display: flex;
+    margin-top: 28px;
+}
+
+.fp {
+    margin-left: 95px;
+    cursor: pointer;
+    color: #2C5282;
+}
+
+.btn {
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    width: 347px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #2D3748;
+    border: none;
+    color: #fff;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.first__btn {
+    background-color: #04C35C;
+    margin-top: 27px;
+}
+
+.gle {
+    background: url(../img/iconfinder_Google_1298745\ 1.svg) no-repeat center left 70px ;
+    background-color: #2D3748;
+}
+
+.footer__firts {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vh;
+}
+
+.jft {
+    cursor: pointer;
+    text-decoration: none;
+    color: #2B6CB0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.wb {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2D3748;
+    margin: 0;
+}
+
+.la {
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #1A202C;
+    margin: 0;
+    padding-top: 2px;
+}
+
+.footer__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #616161;
+}
+
+.btn__one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
